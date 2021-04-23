@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>
+    Enigma AI CO.LTD
+  </title>
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <meta name="author" content="" />
+  <meta name="facebook-domain-verification" content="6lzkk4wwsxvll3575xr63vphwqeng7" />
+  <link rel="stylesheet" href="https://unpkg.com/tailwindcss/dist/tailwind.min.css" />
+  <!--Replace with your tailwind.css once created-->
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet" />
+  <!-- Define your gradient here - use online tools to find a gradient matching your branding-->
+  <style>
+    .gradient {
+      background: linear-gradient(90deg, rgba(45, 44, 86, 1) 0%, rgba(45, 44, 86, 1) 60%, rgba(218, 47, 24, 1) 100%);
+    }
+  </style>
+</head>
+
+<body class="leading-normal tracking-normal text-white gradient"
+  style="font-family: 'Source Sans Pro', sans-serif;">
+  <!--Nav-->
+  <nav id="header" class="fixed w-full z-30 top-0 text-white">
+    <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
+      <div class="pl-4 flex items-center">
+        <a class="text-gray-800 no-underline hover:no-underline font-bold text-2xl lg:text-4xl"
+          href="index.html">
+          <svg class="h-8 fill-current inline" xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 512.005 512.005">
+            <path
+              d="M241,419.482c-34.197-6.969-60-37.266-60-73.482h30c0,19.53,12.576,36.024,30,42.237V121h-90v54.272l-93.889,46.943   C41.236,233.233,31,251.146,31,271c0,27.642,19.102,51.27,45.117,57.92C101.433,415.747,160.463,502.495,241,511.995V419.482z    M121,211h90v30h-90V211z M151,301v-30h30v30H151z" />
+            <polygon fill="#da2f18" points="121,156.728 121,91 241,91 241,0 61,0 61.073,186.691" />
+            <path fill="#da2f18"
+              d="M346,271c-8.262,0-15,6.724-15,15s6.738,15,15,15s15-6.724,15-15S354.262,271,346,271z" />
+            <path
+              d="M450.648,211C445.089,92.331,373.422,8.17,271,0.732V391h60v30h-60v91c79.885-9.428,138.604-94.959,164.268-181H481V211   H450.648z M301,181h30v30h-30V181z M346,331c-24.814,0-45-20.186-45-45s20.186-45,45-45s45,20.186,45,45S370.814,331,346,331z    M391,211h-30v-30h30V211z" />
+          </svg>
+          ENIGMA
+        </a>
+      </div>
+      <div class="block lg:hidden pr-4">
+        <button id="nav-toggle"
+          class="flex items-center p-1 text-pink-800 hover:text-gray-900 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+          <svg class="fill-current h-6 w-6" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+            <title>Menu</title>
+            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+          </svg>
+        </button>
+      </div>
+      <div
+        class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden mt-2 lg:mt-0 bg-white lg:bg-transparent text-white p-4 lg:p-0 z-20"
+        id="nav-content">
+        <ul class="list-reset lg:flex justify-end flex-1 items-center">
+          <li class="mr-3">
+            <a class="inline-block py-2 px-4 text-gray-800 font-bold no-underline" href="#">
+              About Us
+            </a>
+          </li>
+          <li class="mr-3">
+            <a class="inline-block text-gray-800 no-underline hover:text-gray-500 hover:underline py-2 px-4"
+              href="#">
+              Products
+            </a>
+          </li>
+          <li class="mr-3">
+            <a class="inline-block text-gray-800 no-underline hover:text-gray-500 hover:underline py-2 px-4"
+              href="#">
+              Privacy Policy
+            </a>
+          </li>
+        </ul>
+        <button id="navAction"
+          class="mx-auto lg:mx-0 no-underline gradient text-white font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-80 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+          Contact Us
+        </button>
+      </div>
+    </div>
+    <hr class="border-b border-gray-100 opacity-25 my-0 py-0" />
+  </nav>
+  <main class="bg-white border-b py-8">
+    <div class="container max-w-5xl mx-auto m-8">
+      <h1 class="w-full mt-16 mb-2 text-5xl font-bold leading-tight text-center text-gray-800">
+        Privacy Policy
+      </h1>
+      <div class="w-full mb-4">
+        <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
+      </div>
+      <div class="text-gray-600 mb-8 px-20">
+        <p class="mb-2">
+          This Privacy Policy describes Our policies and procedures on the collection, use and
+          disclosure of Your information when You use the Service and tells You about Your privacy
+          rights and how the law protects You.
+        </p>
+        <p class="mb-2">
+          We use Your Personal data to provide and improve the Service. By using the Service, You
+          agree to the collection and use of information in accordance with this Privacy Policy.
+        </p>
+        <h2 class="text-3xl text-gray-800 font-bold leading-none my-3">Interpretation and
+          Definitions
+        </h2>
+        <h3 class="text-2xl text-gray-800 font-bold leading-none my-3">Interpretation</h3>
+        The words of which the initial letter is capitalized have meanings defined under the
+        following conditions. The following definitions shall have the same meaning regardless of
+        whether they appear in singular or in plural.
+        <h3 class="text-2xl text-gray-800 font-bold leading-none my-3">Definitions</h3>
+        <p class="mb-2">
+          For the purposes of this Privacy Policy:
+        </p>
+        <dl>
+          <dt class="mt-2 text-gray-800 font-serif leading-none">Account</dt>
+          <dd class="ml-4">
+            means a unique account created for You to access our Service or parts of our
+            Service.
+          </dd>
+
+          <dt class="mt-2 text-gray-800 font-serif leading-none">Affiliate</dt>
+          <dd class="ml-4">
+            means an entity that controls, is controlled by or is under common control with a party,
+            where "control" means ownership of 50% or more of the shares, equity interest or other
+            securities entitled to vote for election of directors or other managing authority.
+          </dd>
+
+          <dt class="mt-2 text-gray-800 font-serif leading-none">Application</dt>
+          <dd class="ml-4">
+            means any software program provided by the Company downloaded by You on any electronic
+            device.
+          </dd>
+
+          <dt class="mt-2 text-gray-800 font-serif leading-none">
+            Company (referred to as either "the Company", "We", "Us" or "Our" in this Agreement)
+          </dt>
+          <dd class="ml-4">refers to Enigma AI CO.LTD.</dd>
+
+          <dt class="mt-2 text-gray-800 font-serif leading-none">Country </dt>
+          <dd class="ml-4">refers to Sudan</dd>
+
+          <dt class="mt-2 text-gray-800 font-serif leading-none">Device</dt>
+          <dd class="ml-4">
+            means any device that can access the Service such as a computer, a cellphone or a
+            digital tablet.
+          </dd>
+
+          <dt class="mt-2 text-gray-800 font-serif leading-none">Personal Data</dt>
+          <dd class="ml-4">
+            is any information that relates to an identified or identifiable individual.
+          </dd>
+
+          <dt class="mt-2 text-gray-800 font-serif leading-none">Service</dt>
+          <dd class="ml-4">refers to the Application.</dd>
+
+          <dt class="mt-2 text-gray-800 font-serif leading-none">Service Provider</dt>
+          <dd class="ml-4">
+            means any natural or legal person who processes the data on behalf of the Company. It
+            refers to third-party companies or individuals employed by the Company to facilitate the
+            Service, to provide the Service on behalf of the Company, to perform services related to
+            the Service or to assist the Company in analyzing how the Service is used.
+          </dd>
+
+          <dt class="mt-2 text-gray-800 font-serif leading-none">Third-party Social Media Service
+          </dt>
+          <dd class="ml-4">
+            refers to any website or any social network website through which a User can log in or
+            create an account to use the Service.
+          </dd>
+
+          <dt class="mt-2 text-gray-800 font-serif leading-none">Usage Data</dt>
+          <dd class="ml-4">
+            refers to data collected automatically, either generated by the use of the Service or
+            from the Service infrastructure itself (for example, the duration of a page visit).
+          </dd>
+
+          <dt class="mt-2 text-gray-800 font-serif leading-none">You</dt>
+          <dd class="ml-4">
+            means the individual accessing or using the Service, or the company, or other legal
+            entity on behalf of which such individual is accessing or using the Service, as
+            applicable.
+          </dd>
+        </dl>
+
+        <h2 class="text-3xl text-gray-800 font-bold leading-none my-3">
+          Collecting and Using Your Personal Data
+        </h2>
+        <h3 class="text-2xl text-gray-800 font-bold leading-none my-3">
+          Types of Data Collected
+        </h3>
+        <h4 class="text-xl text-gray-800 font-bold leading-none my-3">
+          Personal Data
+        </h4>
+        <p class="mb-2">
+          While using Our Service, We may ask You to provide Us with certain personally identifiable
+          information that can be used to contact or identify You. Personally identifiable
+          information may include, but is not limited to:
+        </p>
+        <ul class="list-disc list-inside ml-2">
+          <li>First name and last name</li>
+          <li>Usage Data</li>
+        </ul>
+
+        <h4 class="text-xl text-gray-800 font-bold leading-none my-3">Usage Data</h4>
+        <p class="mb-2">
+          Usage Data is collected automatically when using the Service.
+        </p>
+        <p class="mb-2">
+          Usage Data may include information such as Your Device's Internet Protocol address (e.g.
+          IP address), browser type, browser version, the pages of our Service that You visit, the
+          time and date of Your visit, the time spent on those pages, unique device identifiers and
+          other diagnostic data.
+        </p>
+        <p class="mb-2">
+          When You access the Service by or through a mobile device, We may collect certain
+          information automatically, including, but not limited to, the type of mobile device You
+          use, Your mobile device unique ID, the IP address of Your mobile device, Your mobile
+          operating system, the type of mobile Internet browser You use, unique device identifiers
+          and other diagnostic data.
+        </p>
+        <p class="mb-2">
+          We may also collect information that Your browser sends whenever You visit our Service or
+          when You access the Service by or through a mobile device.
+        </p>
+
+        <h3 class="text-2xl text-gray-800 font-bold leading-none my-3">
+          Use of Your Personal Data
+        </h3>
+        <p class="mb-2">
+          The Company may use Personal Data for the following purposes:
+        </p>
+        <ul class="list-disc list-inside ml-2">
+          <li>
+            <span class="font-bold">To provide and maintain our Service</span>: including to monitor
+            the usage of our Service.
+          </li>
+          <li>
+            <span class="font-bold">To manage Your Account</span>:
+            to manage Your registration as a user of the Service. The Personal Data You provide can
+            give You access to different functionalities of the Service that are available to You as
+            a registered user.
+          </li>
+          <li>
+            <span class="font-bold">For the performance of a contract</span>:
+            the development, compliance and undertaking of the purchase contract for the products,
+            items or services You have purchased or of any other contract with Us through the
+            Service.
+          </li>
+          <li>
+            <span class="font-bold">To contact You</span>:
+            To contact You by email, telephone calls, SMS, or other equivalent forms of electronic
+            communication, such as a mobile application's push notifications regarding updates or
+            informative communications related to the functionalities, products or contracted
+            services, including the security updates, when necessary or reasonable for their
+            implementation.
+          </li>
+          <li>
+            <span class="font-bold">To provide You </span>
+            with news, special offers and general information about other goods, services and events
+            which we offer that are similar to those that you have already purchased or enquired
+            about unless You have opted not to receive such information.
+          </li>
+          <li>
+            <span class="font-bold">To manage Your requests</span>:
+            To attend and manage Your requests to Us.
+          </li>
+          <li>
+            <span class="font-bold">For business transfers</span>:
+            We may use Your information to evaluate or conduct a merger, divestiture, restructuring,
+            reorganization, dissolution, or other sale or transfer of some or all of Our assets,
+            whether as a going concern or as part of bankruptcy, liquidation, or similar proceeding,
+            in which Personal Data held by Us about our Service users is among the assets
+            transferred.
+          </li>
+          <li>
+            <span class="font-bold">For other purposes</span>:
+            We may use Your information for other purposes, such as data analysis, identifying usage
+            trends, determining the effectiveness of our promotional campaigns and to evaluate and
+            improve our Service, products, services, marketing and your experience.
+          </li>
+        </ul>
+        <p class="my-2">
+          We may share Your personal information in the following situations:
+        </p>
+        <ul class="list-disc list-inside ml-2">
+          <li>
+            <span class="font-bold">With Service Providers</span>: We may share Your personal
+            information with Service Providers to
+            monitor and analyze the use of our Service, to contact You.
+          </li>
+          <li>
+            <span class="font-bold">For business transfers</span>: We may share or transfer Your
+            personal information in connection
+            with, or during negotiations of, any merger, sale of Company assets, financing, or
+            acquisition of all or a portion of Our business to another company.
+          </li>
+          <li>
+            <span class="font-bold">With Affiliates</span>:
+            We may share Your information with Our affiliates, in which case we will require those
+            affiliates to honor this Privacy Policy. Affiliates include Our parent company and any
+            other subsidiaries, joint venture partners or other companies that We control or that
+            are under common control with Us.
+          </li>
+          <li>
+            <span class="font-bold">With business partners</span>:
+            We may share Your information with Our business partners to offer You certain products,
+            services or promotions.
+          </li>
+          <li>
+            <span class="font-bold">With other users</span>:
+            when You share personal information or otherwise interact in the public areas with other
+            users, such information may be viewed by all users and may be publicly distributed
+            outside. If You interact with other users or register through a Third-Party Social Media
+            Service, Your contacts on the Third-Party Social Media Service may see Your name,
+            profile, pictures and description of Your activity. Similarly, other users will be able
+            to view descriptions of Your activity, communicate with You and view Your profile.
+          </li>
+          <li>
+            <span class="font-bold">With Your consent</span>:
+            We may disclose Your personal information for any other purpose with Your consent.
+          </li>
+        </ul>
+        <h3 class="text-2xl text-gray-800 font-bold leading-none my-3">
+          Retention of Your Personal Data
+        </h3>
+        <p class="mb-2">
+          The Company will retain Your Personal Data only for as long as is necessary for the
+          purposes set out in this Privacy Policy. We will retain and use Your Personal Data to the
+          extent necessary to comply with our legal obligations (for example, if we are required to
+          retain your data to comply with applicable laws), resolve disputes, and enforce our legal
+          agreements and policies.
+        </p>
+        <p class="mb-2">
+          The Company will also retain Usage Data for internal analysis purposes. Usage Data is
+          generally retained for a shorter period of time, except when this data is used to
+          strengthen the security or to improve the functionality of Our Service, or We are legally
+          obligated to retain this data for longer time periods.
+        </p>
+
+        <h3 class="text-2xl text-gray-800 font-bold leading-none my-3">
+          Transfer of Your Personal Data
+        </h3>
+        <p class="mb-2">
+          Your information, including Personal Data, is processed at the Company's operating offices
+          and in any other places where the parties involved in the processing are located. It means
+          that this information may be transferred to — and maintained on — computers located
+          outside
+          of Your state, province, country or other governmental jurisdiction where the data
+          protection laws may differ than those from Your jurisdiction.
+        </p>
+        <p class="mb-2">
+          Your consent to this Privacy Policy followed by Your submission of such information
+          represents Your agreement to that transfer.
+        </p>
+        <p class="mb-2">
+          The Company will take all steps reasonably necessary to ensure that Your data is treated
+          securely and in accordance with this Privacy Policy and no transfer of Your Personal Data
+          will take place to an organization or a country unless there are adequate controls in
+          place including the security of Your data and other personal information.
+        </p>
+
+        <h3 class="text-2xl text-gray-800 font-bold leading-none my-3">
+          Disclosure of Your Personal Data
+        </h3>
+        <h4 class="text-xl text-gray-800 font-bold leading-none my-3">Business Transactions</h4>
+        <p>
+          If the Company is involved in a merger, acquisition or asset sale, Your Personal Data may
+          be transferred. We will provide notice before Your Personal Data is transferred and
+          becomes subject to a different Privacy Policy.
+        </p>
+
+        <h4 class="text-xl text-gray-800 font-bold leading-none my-3">Law enforcement</h4>
+        <p>
+          Under certain circumstances, the Company may be required to disclose Your Personal Data if
+          required to do so by law or in response to valid requests by public authorities (e.g. a
+          court or a government agency).
+        </p>
+
+        <h4 class="text-xl text-gray-800 font-bold leading-none my-3">Other legal requirements</h4>
+        <p>
+          The Company may disclose Your Personal Data in the good faith belief that such action is
+          necessary to:
+        </p>
+        <ul class="list-disc list-inside ml-2">
+          <li>Comply with a legal obligation</li>
+          <li>Protect and defend the rights or property of the Company</li>
+          <li>Prevent or investigate possible wrongdoing in connection with the Service</li>
+          <li>Protect the personal safety of Users of the Service or the public</li>
+          <li>Protect against legal liability</li>
+        </ul>
+
+        <h3 class="text-2xl text-gray-800 font-bold leading-none my-3">
+          Security of Your Personal Data
+        </h3>
+        < class="mb-2" p>
+          The security of Your Personal Data is important to Us, but remember that no method of
+          transmission over the Internet, or method of electronic storage is 100% secure. While We
+          strive to use commercially acceptable means to protect Your Personal Data, We cannot
+          guarantee its absolute security.
+          </p>
+
+          <h2 class="text-3xl text-gray-800 font-bold leading-none my-3">
+            Children's Privacy
+          </h2>
+          <p class="mb-2">
+            Our Service does not address anyone under the age of 13. We do not knowingly collect
+            personally identifiable information from anyone under the age of 13. If You are a parent
+            or guardian and You are aware that Your child has provided Us with Personal Data, please
+            contact Us. If We become aware that We have collected Personal Data from anyone under
+            the
+            age of 13 without verification of parental consent, We take steps to remove that
+            information from Our servers.
+          </p>
+          <p class="mb-2">
+            If We need to rely on consent as a legal basis for processing Your information and Your
+            country requires consent from a parent, We may require Your parent's consent before We
+            collect and use that information.
+          </p>
+
+          <h2 class="text-3xl text-gray-800 font-bold leading-none my-3">
+            Links to Other Websites
+          </h2>
+          <p class="mb-2">
+            Our Service may contain links to other websites that are not operated by Us. If You
+            click
+            on a third party link, You will be directed to that third party's site. We strongly
+            advise
+            You to review the Privacy Policy of every site You visit.
+          </p>
+          <p class="mb-2">
+            We have no control over and assume no responsibility for the content, privacy policies
+            or
+            practices of any third party sites or services.
+          </p>
+
+          <h2 class="text-3xl text-gray-800 font-bold leading-none my-3">
+            Changes to this Privacy Policy
+          </h2>
+          <p class="mb-2">
+            We may update Our Privacy Policy from time to time. We will notify You of any changes by
+            posting the new Privacy Policy on this page.
+          </p>
+          <p class="mb-2">
+            We will let You know via email and/or a prominent notice on Our Service, prior to the
+            change becoming effective and update the "Last updated" date at the top of this Privacy
+            Policy.
+          </p>
+          <p class="mb-2">
+            You are advised to review this Privacy Policy periodically for any changes. Changes to
+            this Privacy Policy are effective when they are posted on this page.
+          </p>
+
+          <h2 class="text-3xl text-gray-800 font-bold leading-none my-3">Contact Us</h2>
+          <p class="mb-2">
+            If you have any questions about this Privacy Policy, You can contact us:
+          </p>
+          <p class="mb-2">
+            <a href="mailto:info@enigma-ai.com">info@enigma-ai.com</a>
+          </p>
+
+      </div>
+    </div>
+  </main>
+  <!--Footer-->
+  <footer class="bg-white">
+    <div class="container mx-auto px-8">
+      <div class="w-full flex flex-col md:flex-row py-6">
+        <div class="flex-1 mb-6 text-black">
+          <a class="text-red-500 no-underline hover:no-underline font-bold text-2xl lg:text-4xl"
+            style="color: #da2f18" href="#">
+            <!--Icon from: http://www.potlabicons.com/ -->
+            <svg class="h-8 fill-current inline" xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512.005 512.005">
+              <path
+                d="M241,419.482c-34.197-6.969-60-37.266-60-73.482h30c0,19.53,12.576,36.024,30,42.237V121h-90v54.272l-93.889,46.943   C41.236,233.233,31,251.146,31,271c0,27.642,19.102,51.27,45.117,57.92C101.433,415.747,160.463,502.495,241,511.995V419.482z    M121,211h90v30h-90V211z M151,301v-30h30v30H151z" />
+              <polygon fill="#2D2C56"
+                points="121,156.728 121,91 241,91 241,0 61,0 61.073,186.691" />
+              <path fill="#2D2C56"
+                d="M346,271c-8.262,0-15,6.724-15,15s6.738,15,15,15s15-6.724,15-15S354.262,271,346,271z" />
+              <path
+                d="M450.648,211C445.089,92.331,373.422,8.17,271,0.732V391h60v30h-60v91c79.885-9.428,138.604-94.959,164.268-181H481V211   H450.648z M301,181h30v30h-30V181z M346,331c-24.814,0-45-20.186-45-45s20.186-45,45-45s45,20.186,45,45S370.814,331,346,331z    M391,211h-30v-30h30V211z" />
+            </svg>
+            ENIGMA
+          </a>
+        </div>
+        <div class="flex-1">
+          <p class="uppercase text-gray-500 md:mb-6">Links</p>
+          <ul class="list-reset mb-6">
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <a href="#"
+                class="no-underline hover:underline text-gray-800 hover:text-pink-500">FAQ</a>
+            </li>
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <a href="#"
+                class="no-underline hover:underline text-gray-800 hover:text-pink-500">Help</a>
+            </li>
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <a href="#"
+                class="no-underline hover:underline text-gray-800 hover:text-pink-500">Support</a>
+            </li>
+          </ul>
+        </div>
+        <div class="flex-1">
+          <p class="uppercase text-gray-500 md:mb-6">Legal</p>
+          <ul class="list-reset mb-6">
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <a href="#"
+                class="no-underline hover:underline text-gray-800 hover:text-pink-500">Terms</a>
+            </li>
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <a href="#"
+                class="no-underline hover:underline text-gray-800 hover:text-pink-500">Privacy</a>
+            </li>
+          </ul>
+        </div>
+        <div class="flex-1">
+          <p class="uppercase text-gray-500 md:mb-6">Social</p>
+          <ul class="list-reset mb-6">
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <a href="#"
+                class="no-underline hover:underline text-gray-800 hover:text-pink-500">Facebook</a>
+            </li>
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <a href="#"
+                class="no-underline hover:underline text-gray-800 hover:text-pink-500">Linkedin</a>
+            </li>
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <a href="#"
+                class="no-underline hover:underline text-gray-800 hover:text-pink-500">Twitter</a>
+            </li>
+          </ul>
+        </div>
+        <div class="flex-1">
+          <p class="uppercase text-gray-500 md:mb-6">Company</p>
+          <ul class="list-reset mb-6">
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <a href="#"
+                class="no-underline hover:underline text-gray-800 hover:text-pink-500">Official
+                Blog</a>
+            </li>
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <a href="#"
+                class="no-underline hover:underline text-gray-800 hover:text-pink-500">About Us</a>
+            </li>
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <a href="#"
+                class="no-underline hover:underline text-gray-800 hover:text-pink-500">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <p class="text-gray-500 p-r-1 p-b-1 text-center">
+      &copy; 2021 Enigma AI CO.LTD. All Rights Reserved.
+    </p>
+  </footer>
+  <!-- jQuery if you need it
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  -->
+  <script>
+    var scrollpos = window.scrollY;
+    var header = document.getElementById("header");
+    var navcontent = document.getElementById("nav-content");
+    var navaction = document.getElementById("navAction");
+    var brandname = document.getElementById("brandname");
+    var toToggle = document.querySelectorAll(".toggleColour");
+
+    document.addEventListener("scroll", function () {
+      /*Apply classes for slide in bar*/
+      scrollpos = window.scrollY;
+
+      if (scrollpos > 10) {
+        header.classList.add("bg-white");
+        header.classList.add("shadow");
+        navcontent.classList.remove("bg-gray-100");
+        navcontent.classList.add("bg-white");
+      } else {
+        header.classList.remove("bg-white");
+        header.classList.remove("shadow");
+        navcontent.classList.remove("bg-white");
+        navcontent.classList.add("bg-gray-100");
+      }
+    });
+  </script>
+  <script>
+    /*Toggle dropdown list*/
+    /*https://gist.github.com/slavapas/593e8e50cf4cc16ac972afcbad4f70c8*/
+
+    var navMenuDiv = document.getElementById("nav-content");
+    var navMenu = document.getElementById("nav-toggle");
+
+    document.onclick = check;
+    function check(e) {
+      var target = (e && e.target) || (event && event.srcElement);
+
+      //Nav Menu
+      if (!checkParent(target, navMenuDiv)) {
+        // click NOT on the menu
+        if (checkParent(target, navMenu)) {
+          // click on the link
+          if (navMenuDiv.classList.contains("hidden")) {
+            navMenuDiv.classList.remove("hidden");
+          } else {
+            navMenuDiv.classList.add("hidden");
+          }
+        } else {
+          // click both outside link and outside menu, hide menu
+          navMenuDiv.classList.add("hidden");
+        }
+      }
+    }
+    function checkParent(t, elm) {
+      while (t.parentNode) {
+        if (t == elm) {
+          return true;
+        }
+        t = t.parentNode;
+      }
+      return false;
+    }
+  </script>
+</body>
+
+</html>

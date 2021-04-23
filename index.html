@@ -30,7 +30,7 @@
     <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
       <div class="pl-4 flex items-center">
         <a class="toggleColour text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl"
-          href="#">
+          href="index.html">
           <!--Icon from: http://www.potlabicons.com/ -->
           <svg class="h-8 fill-current inline" xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 512.005 512.005">
@@ -65,20 +65,20 @@
             </a>
           </li>
           <li class="mr-3">
-            <a class="inline-block toggleColour text-gray-100 no-underline hover:text-white hover:text-underline py-2 px-4"
+            <a class="inline-block toggleColour text-gray-100 no-underline hover:text-white hover:underline py-2 px-4"
               href="#">
               Products
             </a>
           </li>
           <li class="mr-3">
-            <a class="inline-block toggleColour text-gray-100 no-underline hover:text-white hover:text-underline py-2 px-4"
-              href="#">
+            <a class="inline-block toggleColour text-gray-100 no-underline hover:text-white hover:underline py-2 px-4"
+              href="privacy.html">
               Privacy Policy
             </a>
           </li>
         </ul>
         <button id="navAction"
-          class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-80 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+          class="mx-auto lg:mx-0 no-underline bg-white text-gray-800 font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-95 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
           Contact Us
         </button>
       </div>
@@ -399,7 +399,7 @@
   <section class="bg-white border-b py-8">
     <div class="container mx-auto flex flex-wrap pt-4 pb-12">
       <h1 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
-        Title
+        GET STARTED
       </h1>
       <div class="w-full mb-4">
         <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
@@ -518,7 +518,7 @@
     <h3 class="my-4 text-3xl leading-tight">
       Our products will be live soon.
       <br>
-      Subscribe to be know when we become live!
+      Subscribe to know when we become live!
     </h3>
     <button
       class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
@@ -531,7 +531,7 @@
       <div class="w-full flex flex-col md:flex-row py-6">
         <div class="flex-1 mb-6 text-black">
           <a class="text-red-500 no-underline hover:no-underline font-bold text-2xl lg:text-4xl"
-            style="color: #da2f18" href="#">
+            style="color: #da2f18" href="/">
             <!--Icon from: http://www.potlabicons.com/ -->
             <svg class="h-8 fill-current inline" xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 512.005 512.005">
@@ -572,7 +572,7 @@
                 class="no-underline hover:underline text-gray-800 hover:text-pink-500">Terms</a>
             </li>
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-              <a href="#"
+              <a href="/privacy.html"
                 class="no-underline hover:underline text-gray-800 hover:text-pink-500">Privacy</a>
             </li>
           </ul>
@@ -581,7 +581,8 @@
           <p class="uppercase text-gray-500 md:mb-6">Social</p>
           <ul class="list-reset mb-6">
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-              <a href="#"
+              <a target="_blank" rel="noopener"
+                href="https://www.facebook.com/Enigma-101662658453995"
                 class="no-underline hover:underline text-gray-800 hover:text-pink-500">Facebook</a>
             </li>
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
@@ -643,6 +644,8 @@
         for (var i = 0; i < toToggle.length; i++) {
           toToggle[i].classList.add("text-gray-800");
           toToggle[i].classList.remove("text-white");
+          toToggle[i].classList.add("hover:text-gray-500")
+          toToggle[i].classList.remove("hover:text-white")
         }
         header.classList.add("shadow");
         navcontent.classList.remove("bg-gray-100");
@@ -657,6 +660,8 @@
         for (var i = 0; i < toToggle.length; i++) {
           toToggle[i].classList.add("text-white");
           toToggle[i].classList.remove("text-gray-800");
+          toToggle[i].classList.add("hover:text-white")
+          toToggle[i].classList.remove("hover:text-gray-500")
         }
 
         header.classList.remove("shadow");
