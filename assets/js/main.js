@@ -161,10 +161,7 @@
   new Swiper('.clients-slider', {
     speed: 400,
     loop: false,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: true
-    },
+    autoplay: false,
     slidesPerView: 'auto',
     pagination: {
       el: '.swiper-pagination',
